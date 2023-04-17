@@ -1,4 +1,4 @@
-const { color } = require('tailwindcss/colors')
+const { colors } = require('tailwindcss/colors')
 const { fontFamily } = require('tailwindcss/defaultTheme');
 
 
@@ -35,14 +35,14 @@ module.exports = {
         ]
       },
       colors: {
-        ...corlos,
+        ...colors,
         'light-gold': '#f5bc51',
         'dark-gold': '#533519',
       }
     }
   },
   plugins: [
-    require('@tailwindcss-animate'),
-    require('@tailwindcss/typography'),
+    require('tailwindcss-animate'),
+    require('@tailwindcss/typography')
   ],
 }
