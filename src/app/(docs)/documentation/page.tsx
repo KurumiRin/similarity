@@ -1,8 +1,10 @@
-import { FC } from "react"
-import type { Metadata } from "next"
 import LargeHeading from "@/ui/LargeHeading"
 import Paragraph from "@/ui/Paragraph"
+import { FC } from "react"
+import "simplebar-react/dist/simplebar.min.css"
+
 import DocumentationTabs from "@/components/DocumentationTabs"
+import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Similarity API | Documentation",
